@@ -1,0 +1,245 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+} 
+img{
+    max-width: 100%;
+}
+/*navbar-section*/
+
+.img-style {
+    width: 50px;
+  }
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 500;
+} 
+.button{
+    font-weight: 600;
+    font-size: 18px;
+}
+/*slider-section*/ 
+.slider-section{
+    background: url(./img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0px;
+}
+.btn-lg.btn-block {
+    background: #5ba533;
+    border: 2px solid #5ba533;
+    color: #fff;
+    font-weight: 500;
+    padding: 0px 67px;
+    transition: .4s;
+}
+.btn-lg.btn-block:hover{
+    background-color: white;
+    color: #6278df;
+    border-color:#6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+.slide-button{
+    border-color: #5ba533;
+}
+.slide-button:focus{
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+/*about-section */
+.about-section {
+    background-color: #f7f9ff;
+}
+.about-content{
+    margin-top: 135px;
+}
+.about-content h1{}
+.about-content p {
+    line-height: 1.7rem;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  /*portfoilio-items*/
+  .porfilo-up h3 {
+    font-size: 43px;
+    font-weight: 500;
+  }
+  .porfilo-up p {
+    font-size: 22px;
+    color: #696969;
+  }
+  .portfoilio-items {
+    height: 300px;
+    align-items: center;
+  }
+  .left-img-sec {
+    width: 50%;
+    overflow: hidden;
+    height: 100%;
+  }
+  .left-img-sec img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -134px;
+  }
+  .left-text-sec {
+    width: 55%;
+    padding: 19px;
+  }
+  .left-text-sec p {
+    font-size: 14px;
+  }
+  .left-text-sec h4 {
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .WORKOUTS {
+    left: -59px !important;
+  }
+  .FITNESS.ASSESSMENT {
+    left: -2px !important;
+  }
+  .MOVE.MINUTES {
+    left: -70px !important;
+  }
+.fature-img{}
+.fature-img a{
+    position: relative; 
+    display: block;
+}
+.fature-img a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(98, 120, 223, .7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+ 
+}
+.fature-img:hover a::after{
+    opacity: 1;
+    visibility:visible;
+    
+}
+/*pricing-section*/
+.pricing-section{
+    background-color: #f7f9ff;
+}
+.col.text-center h1 {
+    font-size: 50px;
+    font-weight: 400;
+  }
+  .pricing-items {
+    background-color: white;
+    padding: 50px;
+    box-shadow: 3px 3px 27px -3px rgba(98, 120, 223, .7);
+   
+  }
+  .pricing-items p {
+    font-size: 25px;
+    margin-bottom: 27px;
+  }
+  .pricing-items h1 {
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .pricing-items ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+  }
+  .pricing-items ul li {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .pricing-items ul li span {
+    color: #6278df;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+  }
+
+  .pricing-button{}
+
+  .pricing-button a {
+    background: white;
+    color: #6278df;
+    font-weight: 600;
+    border: 2px solid white;
+    box-shadow:3px 3px 27px -3px #6278df;
+    display: inline-block;
+    margin-left: -99px;
+    padding: 14px 20px;
+  } 
+  .pricing-items:hover .pricing-button a{
+    background-color: #6278df;
+    color: white;
+    border: 2px solid #6278df;
+  }
+  /*testimonial-item*/
+  .parrent-div {
+    width: 250px;
+    margin: auto;
+  }
+  .parrent-div img {
+    width: 90px;
+    margin-right: 13px;
+  }
+  .parrent-items{
+    text-align: left;
+    position: relative;
+    top: 15px;
+  }
+  .testimonial-items span {
+    font-size: 46px;
+    color: #696969;
+  }
+  .text-muted.mb-5.w-50.mx-auto {
+    font-size: 18px;
+  }
+  /*service-section*/
+  .service-section{
+    background-color: #f7f9ff;;
+  }
+  .service-item{}
+  .service-item .card{}
+  .service-item .card img {
+    width: 127px;
+    height: auto;
+    margin-top: -71px;
+    margin-left: 15px;
+  } 
+
+  /*button*/
+  .btn-itmes .last-btn{
+    background: white;
+    color: #5ba533;
+    border: 2px solid #5ba533;
+    margin-top: 30px;
+    padding: 12px 26px;
+    font-weight: 600;
+    transition: .4s;
+  }
+  .btn-itmes .last-btn:hover{
+    background-color: #5ba533;
+    color: white;
+  }
+  .btn-itmes .right-btn{
+    background: #5ba533;
+    color: white;
+    border: 2px solid #5ba533;
+    margin-top: 30px;
+    padding: 12px 26px;
+    font-weight: 600;
+  }
+
+  /*footer-section*/
+  .footer-section{
+    background-color: #ddd;
+  }
